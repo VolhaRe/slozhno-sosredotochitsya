@@ -17,6 +17,17 @@
 }
 
 :root .theme_light {
+    --bg-color: #f1b2ce;
+    --article-h-bg-color: #ffc2e6;
+    --header-nav-color: #353430;
+    --article-h-color: #f1b2ce;
+    --accent-color: #db00ff;
+    --main-font: IBM Plex Mono;
+    --article-text-color: #353430;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
         --bg-color: #f1b2ce;
         --article-h-bg-color: #ffc2e6;
         --header-nav-color: #353430;
@@ -25,15 +36,4 @@
         --main-font: IBM Plex Mono;
         --article-text-color: #353430;
     }
-
-    @media (prefers-color-scheme: light) {
-      :root {
-        --bg-color: #f1b2ce;
-        --article-h-bg-color: #ffc2e6;
-        --header-nav-color: #353430;
-        --article-h-color: #f1b2ce;
-        --accent-color: #db00ff;
-        --main-font: IBM Plex Mono;
-        --article-text-color: #353430; 
-        }
-    }
+}
