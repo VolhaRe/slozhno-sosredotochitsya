@@ -5,28 +5,31 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Сложно сосредоточиться</title>
+        <link rel="stylesheet" href="./styles/variables.css" />
+        <link rel="stylesheet" href="./styles/style.css" />
         <link rel="stylesheet" href="./styles/dark.css" />
         <link rel="stylesheet" href="./styles/globals.css" />
         <link rel="stylesheet" href="./styles/light.css" />
-        <link rel="stylesheet" href="./styles/style.css" />
-        <link rel="stylesheet" href="./styles/variables.css" />
         <link rel="stylesheet" href="./fonts/fonts.css" />
+        <meta name="color-scheme" content="dark light">
+        <link rel="shortcut icon" type="images/x-icon" href="./images/favicon.ico">
+        <link rel="shortcut icon" type="images/svg" href="./images/favicon.svg">
     </head>
     <body class="page">
         <header class="header decorated-zone">
-            <p><span class="header_rectangle">rec</span></p>
+            <p><span class="header_rectangle" aria-hidden="true">rec</span></p>
             <nav class="header__theme-menu">
                 <ul class="header__theme-menu-list">
                     <li class="header__theme-menu-item">
                         <button
-                            class="header__theme-menu-button header__theme-menu-button_type_light"
+                            class="header__theme-menu-button header__theme-menu-button_type_light theme_light"
                         >
                             День
                         </button>
                     </li>
                     <li class="header__theme-menu-item">
                         <button
-                            class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
+                            class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto theme-auto"
                             disabled
                         >
                             Авто
@@ -34,7 +37,7 @@
                     </li>
                     <li class="header__theme-menu-item">
                         <button
-                            class="header__theme-menu-button header__theme-menu-button_type_dark"
+                            class="header__theme-menu-button header__theme-menu-button_type_dark  theme-dark "
                         >
                             Неон
                         </button>
