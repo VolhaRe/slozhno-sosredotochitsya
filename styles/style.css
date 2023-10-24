@@ -11,6 +11,8 @@
 .header {
     display: grid;
     padding: 10px 10px;
+    height: 100vh;
+    min-height: 668px;
 }
 
 .decorated-zone {
@@ -61,7 +63,7 @@
 
 .header__theme-menu {
     justify-self: end;
-    margin-top: 38px;
+    margin-block-start: 27px;
 }
 
 .header__theme-menu-list {
@@ -105,8 +107,8 @@ h1 {
     font-style: normal;
     font-weight: 700;
     line-height: 82.5%;
-    margin-block-start: 67px;
-    margin-block-end: 55px;
+    padding-top: 63px;
+    
 }
 
 .header_title-small {
@@ -114,7 +116,8 @@ h1 {
     background-color: var(--header-nav-color, #ff0070);
     justify-self: end;
     height: fit-content;
-    margin-bottom: 30px;
+    margin-block-end: 22px;
+    margin-block-start: 53px;
 }
 
 .title-small {
@@ -225,12 +228,15 @@ h1 {
 
     h1 {
         font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-        margin-block-start: 175px;
-        margin-block-end: 162px;
+       padding-top: 175px;
         position: relative;
         left: -20px;
     }
      
+    .header_title-small {
+       margin-block-start: 163px;
+    }
+
     .decorated-zone {
       padding: 20px 20px;
   }
@@ -333,13 +339,17 @@ h1 {
     }
 
     h1 {
-        margin-block-start: 250px;
-        margin-block-end: 114px;
+        padding-top: 250px;
     }
 
     .header_title-small {
         width: 491px;
+        margin-block-start: 112px;
         margin-block-end: 90px;
+    }
+
+    .section_first {
+        margin-block-start: 3px;
     }
 
     .section_articles_list_nowrap {
