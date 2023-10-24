@@ -18,10 +18,10 @@
 
 :root .theme_light {
     --bg-color: #f1b2ce;
-    --article-h-bg-color: #ffc2e6;
+    --article-h-bg-color: #ff8dcb;
     --header-nav-color: #353430;
-    --article-h-color: #f1b2ce;
-    --accent-color: #db00ff;
+    --article-h-color: #353430;
+    --accent-color: #ffc2e6;
     --main-font: IBM Plex Mono;
     --article-text-color: #353430;
 }
@@ -29,11 +29,32 @@
 @media (prefers-color-scheme: light) {
     :root {
         --bg-color: #f1b2ce;
-        --article-h-bg-color: #ffc2e6;
+        --article-h-bg-color: #ff8dcb;
         --header-nav-color: #353430;
-        --article-h-color: #f1b2ce;
-        --accent-color: #db00ff;
+        --article-h-color: #353430;
+        --accent-color: #ffc2e6;
         --main-font: IBM Plex Mono;
         --article-text-color: #353430;
     }
+}
+
+.header_title-small {
+    background-color: var(--article-h-bg-color, #ff8dcb);
+}
+
+.title-small {
+    color: var(--article-h-color, #353430);
+}
+
+.articles_list_title {
+    color: var(--article-h-color, #353430);
+}
+
+.article_title {
+    background-color: var(--article-h-bg-color, #ff8dcb);
+    color: var(--article-h-color, #353430);
+}
+
+.header_rectangle {
+    display: none;
 }
