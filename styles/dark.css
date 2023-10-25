@@ -9,7 +9,7 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-    background-image: url(../images/cover-image-dark.png);
+    --bg-image: url(../images/cover-image-dark.png);
     background-position: center;
     background-attachment: fixed;
     position: relative;
@@ -34,7 +34,7 @@
         --main-font: IBM Plex Mono;
         --article-text-color: #f1b2ce;
         --accent-h-color: #ff0070;
-        background-image: url(../images/cover-image-dark.png);
+        --bg-image: url(../images/cover-image-dark.png);
         background-position: center;
         background-attachment: fixed;
         position: relative;
