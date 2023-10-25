@@ -55,10 +55,10 @@
     content: "";
     width: 9px;
     height: 9px;
-    background-color: var(--accent-color, #ff0070);
+    background-color: var(--header-nav-color, #ff0070);
     border-radius: 100%;
     display: inline-block;
-    box-shadow: 0px 0px 3px 2px  var(--accent-color, #ff0070);
+    box-shadow: 0px 0px 3px 2px var(--header-nav-color, #ff0070);
     margin-left: 10px;
 }
 
@@ -197,10 +197,10 @@ h1 {
 
 .footer {
     display: grid;
-    padding: 42px 10px 0px 10px;
+    padding: 42px 10px 10px 10px;
     min-height: 668px;
     height: 100vh;
-    margin-block-end: 10px;
+    grid-template-rows: 1fr;
 }
 
 .footer_text {
@@ -212,6 +212,7 @@ h1 {
     font-weight: 700;
     line-height: 82.5%;
     place-self: center;
+    /* align-self: center; */
     margin-block-start: 251px;
     margin-block-end: 251px;
 }

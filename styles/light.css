@@ -36,7 +36,6 @@
         --main-font: IBM Plex Mono;
         --article-text-color: #353430;
     }
-
 }
 
 .theme_light .header_title-small {
@@ -56,18 +55,18 @@
     color: var(--article-h-color, #353430);
 }
 
-.theme_light .header_rectangle  {
+.theme_light .header_rectangle {
     display: none;
 }
 
-.theme_auto .header_rectangle  {
-  display: none;
+.theme_auto .header_rectangle {
+    display: none;
 }
 
-.theme_light .page {
+/* .theme_light .page {
     background-image: url(../images/cover-image-light.png);
     background-position: center;
     background-attachment: fixed;
     position: relative;
     background-size: cover;
-}
+} */
