@@ -41,3 +41,7 @@
         background-size: cover;
     }
 }
+
+.page.theme_dark .header_rectangle {
+    display: grid;
+}

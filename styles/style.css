@@ -42,13 +42,18 @@
 }
 
 .header_rectangle {
+    display: grid;
+    grid-template-columns: 1fr 9px;
     color: var(--header-nav-color, #ff0070);
     text-transform: uppercase;
     font-family: var(--main-font, sans serif);
-    font-size: 18px;
     position: absolute;
+    align-items: center;
+    justify-self: end;
+    font-size: 18px;
     top: 10px;
     right: 20px;
+    margin-inline-end: 10px;
 }
 
 .header_rectangle::after {
