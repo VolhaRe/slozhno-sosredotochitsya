@@ -206,7 +206,7 @@ h1 {
 
 .footer_text {
     color: var(--accent-color, #db00ff);
-    text-shadow: 4px 4px 0px var(--accent-h-color, #ff0070);
+    text-shadow:2px 2px 0px var(--accent-h-color, #ff0070);
     font-family: IBM Plex Mono;
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     font-style: normal;
@@ -215,8 +215,6 @@ h1 {
     display: block;
     place-self: center;
     align-self: center;
-    /* margin-block-start: 251px;
-    margin-block-end: 251px; */
     padding-top: 20px;
 }
 
