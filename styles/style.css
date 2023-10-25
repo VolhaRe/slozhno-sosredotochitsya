@@ -218,7 +218,6 @@ h1 {
     /* margin-block-start: 251px;
     margin-block-end: 251px; */
     padding-top: 20px;
-    
 }
 
 @media (min-width: 768px) {
@@ -309,15 +308,14 @@ h1 {
 
     .footer {
         display: grid;
-        padding: 20px 20px 40px 20px;  
-        margin-block-end: 0; 
+        padding: 20px 20px 40px 20px;
+        margin-block-end: 0;
     }
 
     .footer_text {
         padding-top: 20px;
+    }
 }
-}
-
 
 @media (min-width: 1024px) {
     .header__theme-menu-list {
@@ -363,10 +361,8 @@ h1 {
         padding-top: 38px;
     }
 
-   
-
     .footer_text {
         font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
         padding-top: 25px;
-}
+    }
 }

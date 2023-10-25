@@ -16,7 +16,7 @@
     background-size: cover;
 }
 
-:root .theme_light {
+:root.theme_light {
     --bg-color: #f1b2ce;
     --article-h-bg-color: #ff8dcb;
     --header-nav-color: #353430;
@@ -63,10 +63,10 @@
     display: none;
 }
 
-/* .theme_light .page {
+.theme_light .page {
     background-image: url(../images/cover-image-light.png);
     background-position: center;
     background-attachment: fixed;
     position: relative;
     background-size: cover;
-} */
+}
