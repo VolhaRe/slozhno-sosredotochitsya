@@ -1,7 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-    background-image: url(../images/cover-image.png);
+    background-image: url(../images/cover-image-dark.png);
     background-position: center;
     background-attachment: fixed;
     position: relative;
@@ -200,7 +200,8 @@ h1 {
     padding: 42px 10px 10px 10px;
     min-height: 668px;
     height: 100vh;
-    grid-template-rows: 1fr;
+    
+    
 }
 
 .footer_text {
@@ -211,10 +212,11 @@ h1 {
     font-style: normal;
     font-weight: 700;
     line-height: 82.5%;
+    display: block;
     place-self: center;
-    /* align-self: center; */
-    margin-block-start: 251px;
-    margin-block-end: 251px;
+    align-self: center;
+    /* margin-block-start: 251px;
+    margin-block-end: 251px; */
 }
 
 @media (min-width: 768px) {
