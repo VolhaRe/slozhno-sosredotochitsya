@@ -1,7 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-    background-image: url(../images/cover-image-dark.png);
+    background-image: url(../images/cover-image.png);
     background-position: center;
     background-attachment: fixed;
     position: relative;
@@ -62,6 +62,16 @@
     margin-left: 10px;
 }
 
+.header_title_main {
+    color: var(--accent-color, #db00ff);
+    text-shadow: 4px 4px 0px var(--accent-h-color, #ff0070);
+    font-family: IBM Plex Mono;
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82.5%;
+}
+
 .header__theme-menu {
     justify-self: end;
     align-self: center;
@@ -99,16 +109,6 @@
 .header__theme-menu-button_active {
     border: 1px solid var(--header-nav-color);
     pointer-events: none;
-}
-
-h1 {
-    color: var(--accent-color, #db00ff);
-    text-shadow: 4px 4px 0px var(--accent-h-color, #ff0070);
-    font-family: IBM Plex Mono;
-    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-    font-style: normal;
-    font-weight: 700;
-    line-height: 82.5%;
 }
 
 .header_title-small {
@@ -176,6 +176,25 @@ h1 {
     line-height: 23.4px;
 }
 
+.article_text_link {
+    text-decoration: none;
+    color: var(--article-text-color);
+    font-family: var(--main-font, sans serif);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-shadow: 1px 1px 0px var(--accent-h-color, #ff0070);
+}
+
+.article_text_link:hover {
+    text-decoration: underline;
+}
+
+.article_text_link:focus-visible {
+    border: 1px solid var(--bg-color);
+}
+
 .pictures {
     padding: 10px 10px;
     display: grid;
@@ -206,7 +225,7 @@ h1 {
 
 .footer_text {
     color: var(--accent-color, #db00ff);
-    text-shadow:2px 2px 0px var(--accent-h-color, #ff0070);
+    text-shadow: 2px 2px 0px var(--accent-h-color, #ff0070);
     font-family: IBM Plex Mono;
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     font-style: normal;
@@ -219,17 +238,6 @@ h1 {
 }
 
 @media (min-width: 768px) {
-    .header__theme-menu {
-        align-self: center;
-    }
-
-    h1 {
-        font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-        position: relative;
-        left: -20px;
-        align-self: flex-start;
-    }
-
     .decorated-zone {
         padding: 20px 20px;
     }
@@ -237,6 +245,17 @@ h1 {
     .header_rectangle {
         top: 20px;
         right: 30px;
+    }
+
+    .header__theme-menu {
+        align-self: center;
+    }
+
+    .header_title_main {
+        font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+        position: relative;
+        left: -20px;
+        align-self: flex-start;
     }
 
     .header_title-small {
@@ -260,6 +279,15 @@ h1 {
 
     .section_articles_list_nowrap {
         padding: 10px 20px;
+    }
+
+    .pictures {
+        padding: 20px 20px 60px 20px;
+    }
+
+    .picture_title {
+        margin-block-end: 10px;
+        margin-block-start: 10px;
     }
 
     .section_pictures_list {
@@ -293,15 +321,6 @@ h1 {
     .street {
         grid-column-start: 2;
         grid-column-end: 4;
-    }
-
-    .pictures {
-        padding: 20px 20px 60px 20px;
-    }
-
-    .picture_title {
-        margin-block-end: 10px;
-        margin-block-start: 10px;
     }
 
     .footer {
