@@ -73,7 +73,6 @@
     gap: 11px;
 }
 
-
 .header__theme-menu-button {
     width: 70px;
     height: 26px;
@@ -203,7 +202,6 @@ h1 {
     padding: 42px 10px 10px 10px;
     min-height: 668px;
     height: 100vh;
-    
 }
 
 .footer_text {
@@ -229,14 +227,6 @@ h1 {
         padding-top: 175px;
         position: relative;
         left: -20px;
-    }
-
-    .header_title-small {
-        margin-block-start: 163px;
-    }
-
-    .decorated-zone {
-        padding: 20px 20px;
     }
 
     .footer_text {
@@ -318,9 +308,6 @@ h1 {
         margin-block-start: 10px;
     }
 
-    .footer {
-        padding-bottom: 20px;
-    }
 }
 
 @media (min-width: 1024px) {
@@ -377,7 +364,4 @@ h1 {
         margin-block-end: 277px;
         margin-block-start: 277px;
     }
-
-    
 }
-
