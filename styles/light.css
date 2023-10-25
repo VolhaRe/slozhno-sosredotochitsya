@@ -46,6 +46,10 @@
     }
 }
 
+.theme_light .header_title_main {
+    text-shadow: 4px 4px 0px var(--article-h-bg-color, #ff8dcb);
+}
+
 .theme_light .header_title-small {
     background-color: var(--article-h-bg-color, #ff8dcb);
 }
@@ -65,12 +69,4 @@
 
 .theme_light .header_rectangle {
     display: none;
-}
-
-.theme_light .page {
-    background-image: url(../images/cover-image-light.png);
-    background-position: center;
-    background-attachment: fixed;
-    position: relative;
-    background-size: cover;
 }
