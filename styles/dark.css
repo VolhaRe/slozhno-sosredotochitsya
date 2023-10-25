@@ -10,6 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
     --bg-image: url(../images/cover-image-dark.png);
+    background-image: var(--bg-image);
     background-position: center;
     background-attachment: fixed;
     position: relative;
@@ -35,6 +36,7 @@
         --article-text-color: #f1b2ce;
         --accent-h-color: #ff0070;
         --bg-image: url(../images/cover-image-dark.png);
+        background-image: var(--bg-image);
         background-position: center;
         background-attachment: fixed;
         position: relative;
