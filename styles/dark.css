@@ -16,6 +16,21 @@
     background-size: cover;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+      --bg-color: #000028;
+      --article-h-bg-color: #ff0070;
+      --header-nav-color: #ff0070;
+      --article-h-color: #000028;
+      --accent-color: #db00ff;
+      --main-font: IBM Plex Mono;
+      --article-text-color: #f1b2ce;
+      --accent-h-color: #ff0070;
+  }
+}
+
+
+
 :root .theme_dark {
     --bg-color: #000028;
     --article-h-bg-color: #ff0070;
@@ -27,15 +42,4 @@
     --accent-h-color: #ff0070;
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --bg-color: #000028;
-        --article-h-bg-color: #ff0070;
-        --header-nav-color: #ff0070;
-        --article-h-color: #000028;
-        --accent-color: #db00ff;
-        --main-font: IBM Plex Mono;
-        --article-text-color: #f1b2ce;
-        --accent-h-color: #ff0070;
-    }
-}
+
