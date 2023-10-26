@@ -20,8 +20,9 @@
     --header-nav-color: #353430;
     --article-h-color: #353430;
     --accent-color: #ffc2e6;
-    --main-font: IBM Plex Mono;
+    --main-font: IBM Plex Mono, sans-serif;
     --article-text-color: #353430;
+    --hover-color: rgba(50, 49, 45, 0.4);
 }
 
 @media (prefers-color-scheme: light) {
@@ -31,9 +32,10 @@
         --header-nav-color: #353430;
         --article-h-color: #353430;
         --accent-color: #ffc2e6;
-        --main-font: IBM Plex Mono;
+        --main-font: IBM Plex Mono, sans-serif;
         --article-text-color: #353430;
         --bg-image: url(../images/cover-image-light.png);
+        --hover-color: rgba(50, 49, 45, 0.4);
         background-image: var(--bg-image);
         background-position: center;
         background-attachment: fixed;
@@ -41,54 +43,62 @@
         background-size: cover;
     }
 
-    .header_rectangle {
+    .header-rectangle {
         display: none;
     }
 
-    .header_title_main {
+    .header__theme-menu-button:hover {
+        border: 1px solid var(--hover-color, rgba(50, 49, 45, 0.4));
+    }
+
+    .header__theme-menu-button:focus-visible {
+        border-bottom: 1px solid var(--hover-color, rgba(50, 49, 45, 0.4));
+    }
+
+    .header-title_main {
         text-shadow: 4px 4px 0px var(--article-h-bg-color, #ff8dcb);
     }
 
-    .header_title-small {
+    .header-title_small {
         background-color: var(--article-h-bg-color, #ff8dcb);
     }
 
-    .title-small {
+    .title_small {
         color: var(--article-h-color, #353430);
     }
 
-    .article_title {
+    .article-title {
         background-color: var(--article-h-bg-color, #ff8dcb);
         color: var(--article-h-color, #353430);
     }
 
-    .footer_text {
+    .footer-text {
         text-shadow: 2px 2px 0px var(--article-h-bg-color, #ff8dcb);
     }
 }
 
-.theme_light .header_title_main {
+.theme_light .header-title_main {
     text-shadow: 4px 4px 0px var(--article-h-bg-color, #ff8dcb);
 }
 
-.theme_light .header_title-small {
+.theme_light .header-title_small {
     background-color: var(--article-h-bg-color, #ff8dcb);
 }
 
-.theme_light .title-small {
+.theme_light .title_small {
     color: var(--article-h-color, #353430);
 }
 
-.theme_light .articles_list_title {
+.theme_light .articles_list-title {
     color: var(--article-h-color, #353430);
 }
 
-.theme_light .article_title {
+.theme_light .article-title {
     background-color: var(--article-h-bg-color, #ff8dcb);
     color: var(--article-h-color, #353430);
 }
 
-.theme_light .header_rectangle {
+.theme_light .header-rectangle {
     display: none;
 }
 
