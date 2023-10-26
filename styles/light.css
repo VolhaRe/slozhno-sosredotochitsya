@@ -44,6 +44,33 @@
     .header_rectangle {
         display: none;
     }
+
+    .header_title_main {
+        text-shadow: 4px 4px 0px var(--article-h-bg-color, #ff8dcb);
+    
+
+}
+
+.header_title-small {
+    
+    background-color: var(--article-h-bg-color, #ff8dcb);
+   
+}
+
+.title-small {
+    color: var(--article-h-color, #353430);
+   
+}
+
+.article_title {
+    background-color: var(--article-h-bg-color, #ff8dcb);
+    color: var(--article-h-color, #353430);
+    
+}
+
+.footer_text {
+    
+    text-shadow: 2px 2px 0px var(--article-h-bg-color, #ff8dcb);
 }
 
 .theme_light .header_title_main {
@@ -69,4 +96,8 @@
 
 .theme_light .header_rectangle {
     display: none;
+}
+
+ .theme_light .page{
+    background-image: var(--bg-image);
 }

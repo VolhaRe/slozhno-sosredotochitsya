@@ -42,8 +42,14 @@
         position: relative;
         background-size: cover;
     }
+
+  
 }
 
 .page.theme_dark .header_rectangle {
     display: grid;
+}
+
+.page .theme_dark {
+  background-image: var(--bg-image);
 }

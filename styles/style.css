@@ -297,7 +297,7 @@
 
     .section_pictures_list {
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 3fr 3, 6fr 5fr;
+        grid-template-rows: 3fr 3.6fr 5fr;
         gap: 20px;
     }
 
