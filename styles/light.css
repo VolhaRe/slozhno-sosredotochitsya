@@ -110,5 +110,9 @@
 }
 
 .theme_light .page {
-    background-image: var(--bg-image);
+    background-image: url(../images/cover-image-light.png);
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    background-size: cover;
 }
