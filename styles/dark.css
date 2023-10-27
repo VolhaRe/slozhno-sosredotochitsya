@@ -33,12 +33,9 @@
         --article-text-color: #f1b2ce;
         --accent-h-color: #ff0070;
         --hover-color: rgba(255, 0, 112, 0.4);
-        background-image: url(../images/cover-image-dark.png);
+
     }
 
-    .page {
-        background-image: url(../images/cover-image-dark.png);
-    }
 }
 
 .page.theme_dark .header-rectangle {

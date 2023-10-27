@@ -31,7 +31,7 @@
         --main-font: IBM Plex Mono, sans-serif;
         --article-text-color: #353430;
         --hover-color: rgba(50, 49, 45, 0.4);
-        background-image: url(../images/cover-image-light.png);
+        /* background-image: url(../images/cover-image-light.png); */
     }
 
     .page {
