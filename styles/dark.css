@@ -41,6 +41,3 @@
     display: grid;
 }
 
-.theme_dark .page {
-    background-image: var(--bg-image);
-}
