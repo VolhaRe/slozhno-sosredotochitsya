@@ -38,7 +38,7 @@
         --accent-h-color: #ff0070;
         
         --hover-color: rgba(255, 0, 112, 0.4);
-        background-image: url(../images/cover-image-dark.png)
+        background-image: url(../images/cover-image-dark.png);
         background-position: center;
         background-attachment: fixed;
         position: relative;
