@@ -5,11 +5,6 @@
 */
 
 .page.theme_light {
-    /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
-
     background-image: url(../images/cover-image-light.png);
     --bg-color: #f1b2ce;
     --article-h-bg-color: #ff8dcb;
@@ -42,55 +37,48 @@
         display: none;
     }
 
-    .header__theme-menu-button:hover {
-        border: 1px solid var(--hover-color, rgba(50, 49, 45, 0.4));
-    }
-
-    .header__theme-menu-button:focus-visible {
-        border-bottom: 1px solid var(--hover-color, rgba(50, 49, 45, 0.4));
-    }
 
     .header-title_main {
-        text-shadow: 4px 4px 0px var(--article-h-bg-color, #ff8dcb);
+        text-shadow: 4px 4px 0px var(--article-h-bg-color);
     }
 
     .header-title_small {
-        background-color: var(--article-h-bg-color, #ff8dcb);
+        background-color: var(--article-h-bg-color);
     }
 
     .title_small {
-        color: var(--article-h-color, #353430);
+        color: var(--article-h-color);
     }
 
     .article-title {
-        background-color: var(--article-h-bg-color, #ff8dcb);
-        color: var(--article-h-color, #353430);
+        background-color: var(--article-h-bg-color);
+        color: var(--article-h-color);
     }
 
     .footer-text {
-        text-shadow: 2px 2px 0px var(--article-h-bg-color, #ff8dcb);
+        text-shadow: 2px 2px 0px var(--article-h-bg-color);
     }
 }
 
 .theme_light .header-title_main {
-    text-shadow: 4px 4px 0px var(--article-h-bg-color, #ff8dcb);
+    text-shadow: 4px 4px 0px var(--article-h-bg-color);
 }
 
 .theme_light .header-title_small {
-    background-color: var(--article-h-bg-color, #ff8dcb);
+    background-color: var(--article-h-bg-color);
 }
 
 .theme_light .title_small {
-    color: var(--article-h-color, #353430);
+    color: var(--article-h-color);
 }
 
 .theme_light .articles_list-title {
-    color: var(--article-h-color, #353430);
+    color: var(--article-h-color);
 }
 
 .theme_light .article-title {
-    background-color: var(--article-h-bg-color, #ff8dcb);
-    color: var(--article-h-color, #353430);
+    background-color: var(--article-h-bg-color);
+    color: var(--article-h-color);
 }
 
 .theme_light .header-rectangle {
