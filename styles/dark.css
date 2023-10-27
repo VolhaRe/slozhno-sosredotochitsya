@@ -21,7 +21,7 @@
     --accent-h-color: #ff0070;
     --hover-color: rgba(255, 0, 112, 0.4);
 }
-
+/* 
 @media (prefers-color-scheme: dark) {
     :root {
         --bg-color: #000028;
@@ -35,7 +35,7 @@
         --hover-color: rgba(255, 0, 112, 0.4);
         --bg-image: url(../images/cover-image-dark.png);
     }
-}
+} */
 
 .theme_dark .header-rectangle {
     display: grid;

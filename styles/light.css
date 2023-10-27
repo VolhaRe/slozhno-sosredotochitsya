@@ -34,8 +34,7 @@
         background-image: url(../images/cover-image-light.png);
     }
 
-    e-h-bg-color, #ff8dcb);
-    }.page {
+    .page {
         background-image: url(../images/cover-image-light.png);
     }
 
@@ -69,7 +68,8 @@
     }
 
     .footer-text {
-        text-shadow: 2px 2px 0px var(--articl
+        text-shadow: 2px 2px 0px var(--article-h-bg-color, #ff8dcb);
+    }
 }
 
 .theme_light .header-title_main {
