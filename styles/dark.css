@@ -11,10 +11,6 @@
   */
 
     background-image: url(../images/cover-image-dark.png);
-    background-position: center;
-    background-attachment: fixed;
-    position: relative;
-    background-size: cover;
     --bg-color: #000028;
     --article-h-bg-color: #ff0070;
     --header-nav-color: #ff0070;
@@ -41,21 +37,9 @@
 
     .page {
         background-image: url(../images/cover-image-dark.png);
-        background-position: center;
-        background-attachment: fixed;
-        position: relative;
-        background-size: cover;
     }
 }
 
 .page.theme_dark .header-rectangle {
     display: grid;
-}
-
-.page .theme_dark {
-    background-image: url(../images/cover-image-dark.png);
-    background-position: center;
-    background-attachment: fixed;
-    position: relative;
-    background-size: cover;
 }

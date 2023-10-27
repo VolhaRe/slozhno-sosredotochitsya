@@ -11,10 +11,6 @@
   */
 
     background-image: url(../images/cover-image-light.png);
-    background-position: center;
-    background-attachment: fixed;
-    position: relative;
-    background-size: cover;
     --bg-color: #f1b2ce;
     --article-h-bg-color: #ff8dcb;
     --header-nav-color: #353430;
@@ -35,19 +31,11 @@
         --main-font: IBM Plex Mono, sans-serif;
         --article-text-color: #353430;
         --hover-color: rgba(50, 49, 45, 0.4);
-        background-image: var(--bg-image);
-        background-position: center;
-        background-attachment: fixed;
-        position: relative;
-        background-size: cover;
+        
     }
 
     .page {
         background-image: url(../images/cover-image-light.png);
-        background-position: center;
-        background-attachment: fixed;
-        position: relative;
-        background-size: cover;
     }
 
     .header-rectangle {
@@ -109,10 +97,3 @@
     display: none;
 }
 
-.theme_light .page {
-    background-image: url(../images/cover-image-light.png);
-    background-position: center;
-    background-attachment: fixed;
-    position: relative;
-    background-size: cover;
-}
