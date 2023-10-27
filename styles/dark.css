@@ -41,3 +41,7 @@
 .page.theme_dark .header-rectangle {
     display: grid;
 }
+
+.page.theme_dark {
+  background-image: url(../images/cover-image-dark.png);
+}
