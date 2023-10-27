@@ -97,3 +97,6 @@
     display: none;
 }
 
+.theme_light .page{
+    background-image: url(../images/cover-image-light.png);
+}

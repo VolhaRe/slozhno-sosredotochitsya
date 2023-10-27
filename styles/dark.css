@@ -38,10 +38,10 @@
 
 }
 
-.page.theme_dark .header-rectangle {
+.theme_dark .header-rectangle {
     display: grid;
 }
 
-.page.theme_dark {
+.theme_dark .page {
   background-image: url(../images/cover-image-dark.png);
 }
