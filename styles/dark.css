@@ -19,3 +19,7 @@
 .theme_dark .header-rectangle {
     display: grid;
 }
+
+.theme_dark .page {
+    background-color: var(--bg-color);
+}
