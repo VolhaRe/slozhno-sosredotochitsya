@@ -37,6 +37,21 @@
         display: none;
     }
 
+
+    .header__theme-menu-button:hover {
+        outline: 1px solid var(--hover-color);
+    }
+    
+    .header__theme-menu-button:focus-visible {
+        border-bottom: 1px solid var(--hover-color);
+    }
+    
+    .header__theme-menu-button_active {
+        outline: 1px solid var(--header-nav-color);
+        pointer-events: none;
+    }
+
+
     @media (min-width: 1024px) {
         .footer-text {
             text-shadow: 2px 2px 0px var(--accent-h-color, #ff0070);
