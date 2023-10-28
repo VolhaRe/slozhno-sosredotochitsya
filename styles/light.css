@@ -7,6 +7,11 @@
     --accent-color: #ffc2e6;
     --main-font: IBM Plex Mono, sans-serif;
     --article-text-color: #353430;
+    --text-shadow: #ff8dcb;
+    --articles_list-title: #353430;
+    --title_small-color: #353430;
+    --articles-title: #353430;
+    --articles-title-bg: #ff8dcb;
     --hover-color: rgba(50, 49, 45, 0.4);
 }
 
@@ -20,64 +25,21 @@
         --main-font: IBM Plex Mono, sans-serif;
         --article-text-color: #353430;
         --hover-color: rgba(50, 49, 45, 0.4);
+        --text-shadow: #ff8dcb;
+        --title_small-color: #353430;
+        --articles_list-title: #353430;
+        --articles-title: #353430;
+        --articles-title-bg: #ff8dcb;
+        --bg-image: url(../images/cover-image-light.png);
         background-color: var(--bg-color);
-    }
-
-    .page {
-        background-image: url(../images/cover-image-light.png);
+        background-image: var(--bg-image);
     }
 
     .header-rectangle {
         display: none;
     }
-
-    .header-title_main {
-        text-shadow: 4px 4px 0px var(--article-h-bg-color);
-    }
-
-    .header-title_small {
-        background-color: var(--article-h-bg-color);
-    }
-
-    .title_small {
-        color: var(--article-h-color);
-    }
-
-    .article-title {
-        background-color: var(--article-h-bg-color);
-        color: var(--article-h-color);
-    }
-
-    .footer-text {
-        text-shadow: 2px 2px 0px var(--article-h-bg-color);
-    }
-}
-
-.theme_light .header-title_main {
-    text-shadow: 4px 4px 0px var(--article-h-bg-color);
-}
-
-.theme_light .header-title_small {
-    background-color: var(--article-h-bg-color);
-}
-
-.theme_light .title_small {
-    color: var(--article-h-color);
-}
-
-.theme_light .articles_list-title {
-    color: var(--article-h-color);
-}
-
-.theme_light .article-title {
-    background-color: var(--article-h-bg-color);
-    color: var(--article-h-color);
 }
 
 .theme_light .header-rectangle {
     display: none;
-}
-
-.theme_light .page {
-    background-image: url(../images/cover-image-light.png);
 }

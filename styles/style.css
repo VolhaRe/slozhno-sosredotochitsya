@@ -69,7 +69,7 @@
 
 .header-title_main {
     color: var(--accent-color, #db00ff);
-    text-shadow: 4px 4px 0px var(--accent-h-color, #ff0070);
+    text-shadow: 4px 4px 0px var(--text-shadow, #ff0070);
     font-family: var(--main-font), sans-serif;
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     font-style: normal;
@@ -118,14 +118,14 @@
 
 .header-title_small {
     width: 355px;
-    background-color: var(--header-nav-color, #ff0070);
+    background-color: var(--article-h-bg-color, #ff0070);
     justify-self: end;
     height: fit-content;
     margin-block-start: 55px;
 }
 
 .title_small {
-    color: var(--bg-color, #000028);
+    color: var(--title_small-color, #000028);
     font-family: var(--main-font, sans-serif);
     font-size: 18px;
     font-style: normal;
@@ -143,7 +143,7 @@
 }
 
 .articles_list-title {
-    color: var(--header-nav-color, #ff0070);
+    color: var(--articles_list-title, #ff0070);
     font-family: var(--main-font, sans-serif);
     font-size: 18px;
     font-style: normal;
@@ -157,8 +157,8 @@
 }
 
 .article-title {
-    background-color: var(--header-nav-color, #ff0070);
-    color: var(--bg-color, #000028);
+    background-color: var(--articles-title-bg, #ff0070);
+    color: var(--articles-title, #000028);
     font-family: var(--main-font, sans-serif);
     font-size: 18px;
     font-style: normal;

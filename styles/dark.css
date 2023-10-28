@@ -5,32 +5,16 @@
     --header-nav-color: #ff0070;
     --article-h-color: #000028;
     --accent-color: #db00ff;
-    --article-text-color: #f1b2ce;
+    --article-text-color: #ff8dcb;
     --accent-h-color: #ff0070;
     --hover-color: rgba(255, 0, 112, 0.4);
-    background-image: var(--bg-image);
-    background-color: var(--bg-color);
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --bg-image: url(../images/cover-image-dark.png);
-        --bg-color: #000028;
-        --article-h-bg-color: #ff0070;
-        --header-nav-color: #ff0070;
-        --article-h-color: #000028;
-        --accent-color: #db00ff;
-        --article-text-color: #f1b2ce;
-        --accent-h-color: #ff0070;
-        --hover-color: rgba(255, 0, 112, 0.4);
-        
-    }
-
-    .page {
-        background-color: var(--bg-color);
-        background-image: var(--bg-image);
-    }
-}
+    --text-shadow: #ff0070;
+    --hover-color: rgba(255, 0, 112, 0.4);
+    --title_small-color: #000028;
+    --articles_list-title: #ff0070;
+    --articles-title: #000028;
+    --articles-title-bg: #ff0070;
+  }
 
 .theme_dark .header-rectangle {
     display: grid;

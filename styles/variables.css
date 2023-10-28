@@ -11,6 +11,11 @@
     --main-font: IBM Plex Mono, sans-serif;
     --article-text-color: #f1b2ce;
     --accent-h-color: #ff0070;
+    --text-shadow: #ff0070;
     --hover-color: rgba(255, 0, 112, 0.4);
+    --articles_list-title: #ff0070;
+    --title_small-color: #000028;
+    --articles-title: #000028;
+    --articles-title-bg: #ff0070;
     --bg-image: url(../images/cover-image-dark.png);
   }
