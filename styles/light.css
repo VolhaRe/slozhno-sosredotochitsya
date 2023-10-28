@@ -36,7 +36,18 @@
     .header-rectangle {
         display: none;
     }
+
+    @media (min-width: 1024px) {
+        .footer-text {
+            text-shadow: 2px 2px 0px var(--accent-h-color, #ff0070);
+        }
+
+        .header-title_main {
+            text-shadow: 4px 4px 0px var(--accent-h-color, #ff0070);
+        }
+    }
 }
+
 
 .theme_light .header-rectangle {
     display: none;

@@ -22,12 +22,12 @@
     display: grid;
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     :root {
-        --bg-color: #000028;
-        --bg-image: url(../images/cover-image-dark.png);
+        background-color: #000028;
+        background-image: url(../images/cover-image-dark.png);
     }
-} */
+}
 
 .theme_dark .page {
     background-image: url(../images/cover-image-dark.png);

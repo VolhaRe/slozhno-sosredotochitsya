@@ -104,7 +104,7 @@
 }
 
 .header__theme-menu-button:hover {
-    border: 1px solid var(--hover-color, rgba(255, 0, 112, 0.4));
+    outline: 1px solid var(--hover-color, rgba(255, 0, 112, 0.4));
 }
 
 .header__theme-menu-button:focus-visible {
@@ -112,7 +112,7 @@
 }
 
 .header__theme-menu-button_active {
-    border: 1px solid var(--header-nav-color);
+    outline: 1px solid var(--header-nav-color);
     pointer-events: none;
 }
 
@@ -197,7 +197,7 @@
 }
 
 .article-text-link:focus-visible {
-    border: 1px solid var(--bg-color);
+    outline: 1px solid var(--bg-color);
 }
 
 .pictures {
