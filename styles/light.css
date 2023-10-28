@@ -12,7 +12,7 @@
 
 @media (prefers-color-scheme: light) {
     :root {
-        --bg-color: #f1b2ce;
+        --bg-color: #fff1f7;
         --article-h-bg-color: #ff8dcb;
         --header-nav-color: #353430;
         --article-h-color: #353430;
