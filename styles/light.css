@@ -31,8 +31,6 @@
         --articles-title: #353430;
         --articles-title-bg: #ff8dcb;
         --bg-image: url(../images/cover-image-light.png);
-        background-color: var(--bg-color);
-        background-image: var(--bg-image);
     }
 
     .header-rectangle {
@@ -42,4 +40,9 @@
 
 .theme_light .header-rectangle {
     display: none;
+}
+
+.theme_light .page {
+    background-color: #fff1f7;
+    background-image: url(../images/cover-image-light.png);
 }
