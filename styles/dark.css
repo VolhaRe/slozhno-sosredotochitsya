@@ -15,12 +15,15 @@
     --accent-h-color: #ff0070;
     --hover-color: rgba(255, 0, 112, 0.4);
     background-image: var(--bg-image);
+    background-color: var(--bg-color);
+}
+
+@media (prefers-color-scheme: dark) {
+    --hover-color: rgba(255, 0, 112, 0.4);
+    background-image: var(--bg-image);
+    background-color: var(--bg-color);
 }
 
 .theme_dark .header-rectangle {
     display: grid;
-}
-
-.theme_dark .page {
-    background-image: var(--bg-image);
 }
