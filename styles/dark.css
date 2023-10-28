@@ -23,12 +23,12 @@
         --article-text-color: #f1b2ce;
         --accent-h-color: #ff0070;
         --hover-color: rgba(255, 0, 112, 0.4);
-        background-image: var(--bg-image);
-        background-color: var(--bg-color);
+        
     }
 
     .page {
         background-color: var(--bg-color);
+        background-image: var(--bg-image);
     }
 }
 
