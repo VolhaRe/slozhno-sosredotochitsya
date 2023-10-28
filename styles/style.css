@@ -2,10 +2,10 @@
 
 .page {
     background-image: var(--bg-image);
+    background-color: var(--bg-color);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    background-color: var(--bg-color);
 }
 
 .header {
