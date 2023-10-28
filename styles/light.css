@@ -58,3 +58,32 @@
         text-shadow: 2px 2px 0px var(--article-h-bg-color);
     }
 }
+
+.theme_light .header-title_main {
+    text-shadow: 4px 4px 0px var(--article-h-bg-color);
+}
+
+.theme_light .header-title_small {
+    background-color: var(--article-h-bg-color);
+}
+
+.theme_light .title_small {
+    color: var(--article-h-color);
+}
+
+.theme_light .articles_list-title {
+    color: var(--article-h-color);
+}
+
+.theme_light .article-title {
+    background-color: var(--article-h-bg-color);
+    color: var(--article-h-color);
+}
+
+.theme_light .header-rectangle {
+    display: none;
+}
+
+.theme_light .page {
+    background-image: url(../images/cover-image-light.png);
+}

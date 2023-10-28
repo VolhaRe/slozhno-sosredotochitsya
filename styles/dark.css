@@ -19,9 +19,19 @@
 }
 
 @media (prefers-color-scheme: dark) {
-    --hover-color: rgba(255, 0, 112, 0.4);
-    background-image: var(--bg-image);
-    background-color: var(--bg-color);
+    :root {
+        --bg-image: url(../images/cover-image-dark.png);
+        --bg-color: #000028;
+        --article-h-bg-color: #ff0070;
+        --header-nav-color: #ff0070;
+        --article-h-color: #000028;
+        --accent-color: #db00ff;
+        --article-text-color: #f1b2ce;
+        --accent-h-color: #ff0070;
+        --hover-color: rgba(255, 0, 112, 0.4);
+        background-image: var(--bg-image);
+        background-color: var(--bg-color);
+    }
 }
 
 .theme_dark .header-rectangle {
