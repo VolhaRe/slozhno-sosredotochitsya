@@ -16,6 +16,8 @@
     --articles-title-bg: #ff0070;
     background-color: var(--bg-color);
     background-image: var(--bg-image);
+    background-image: url(../images/cover-image-dark.png);
+    background-color: #000028;
 }
 
 .theme_dark .header-rectangle {
