@@ -22,7 +22,7 @@
     display: grid;
 }
 
-.theme_dark {
+.theme_dark.page {
     background-image: url(../images/cover-image-dark.png);
     background-color: #000028;
 }
