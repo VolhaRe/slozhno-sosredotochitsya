@@ -52,7 +52,7 @@
     display: none;
 }
 
-.theme_light .page {
+.theme_light.page {
     background-color: #fff1f7;
     background-image: url(../images/cover-image-light.png);
 }
